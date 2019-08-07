@@ -2,7 +2,7 @@
 
 **multi-table-comp** is a Vue.js (>= 2.5) web component that displays multiple sub tables of data from a single parent table.  The contents of a sub table is expanded/contracted by displaying/hiding the associated rows in the parent table.  
 
-**multi-table-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  The dependency  can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file. Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 14 KiB along with calling a CDN for incorporating the Vue framework.
+ **multi-table-comp** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **multi-table-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **multi-table-comp** along with its [vue.js](https://vuejs.org/ "Vue.js") dependency for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -83,7 +83,7 @@ The parent component can listen to the above event and provide a callback for fu
 
 One demonstration of **multi-table-comp**  is provided and can be viewed by hosting the `index.html`file in the `demo/dist` folder. The demo  (templated in the `App.vue` file)  displays two sub tables labelled `House` and `Horse` for two type of American flies.  The sub tables have columns for `Fly Name`, `Location`, and `Color`.  
 
-As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **multi-table-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **multi-table-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 Here is some example code for using **multi-table-comp** taken from the `App.vue` file:
 
