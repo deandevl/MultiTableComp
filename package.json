@@ -1,0 +1,16 @@
+{
+  "name": "multitablecomp",
+  "version": "1.0.0",
+  "description": "A Vue.js (>= 2.5) web component that provides a way to display/label multiple tables ",
+  "main": "MultiTableComp.vue",
+  "repository": "git+https://github.com/deandevl/MultiTableComp.git",
+  "keywords": [
+    "Vue.js",
+    "MultiTableComp"
+  ],
+  "author": "'Rick Dean <deanr3@bardstown.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}
